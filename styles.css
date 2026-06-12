@@ -1,0 +1,147 @@
+* {
+    color: #3A241D;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #F9F2EA;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    font-family: 'Poppins';
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.mainlogo {
+    width: 180px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#order-online {
+    background-color: #E9B8B0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.cake-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 95%;
+    height: auto;
+    z-index: 0;
+}
+
+main {
+    background-color: transparent;
+    min-height: 100vh;
+    display: flex;
+}
+
+.hero-text {
+    padding-left: 10%;
+    padding-top: 12%;
+    font-family: 'Poppins';
+    max-width: 800px;
+    transform: scale(1.7);
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    max-width: 200px;
+}
+
+.hero-text p {
+    margin-top: 16px;
+    font-size: 18px;
+    max-width: 800px;
+}
+
+.sweet-spot {
+    color: #E9B8B0;
+    font-style: italic;
+    font-weight: 700 !important;
+    font-family: 'Dancing Script';
+    font-size: 48px;
+    margin-top: -8px;
+}
+
+.hero-buttons {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.button-one {
+    background-color: #E9B8B0;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-two {
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #E9B8B0;
+}
+
+.community-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: -5%;
+}
+
+.community h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 600px;
+    margin-bottom: 16px;
+    top: -70%;
+}
+
+.community p {
+    font-family: 'Poppins';
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.community-button {
+    font-family: 'Poppins';
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #E9B8B0;
+}
